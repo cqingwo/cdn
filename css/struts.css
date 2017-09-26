@@ -1,0 +1,62 @@
+/* CSS Document */
+@import url("bootstrap.css");
+@import url("global.css");
+a:link,a:visited{
+	color:#333;
+}
+a:active,a:hover{
+	color:#111;
+}
+html{
+}
+body {
+	padding:0;
+	margin:0 auto;
+	color:#5A616B;
+	font-size:12px;
+}
+#wrapper {
+	width:100%;
+	min-width:1000px;
+	margin:0 auto;
+}
+#header,header{
+	width:100%;
+	margin:0 auto;
+}
+#header .header,header hgroup{
+	width:1002px;
+	height:128px;
+	margin:0 auto;
+	overflow:hidden;
+
+
+}
+#main {
+	width:100%;
+	margin:0 auto;
+
+}
+
+#footer,footer{
+	width:100%;
+	text-align:center;
+	margin:0 auto;
+}
+
+#footer .footer,footer .footer{
+	width:1002px;
+	margin-top:10px;
+	padding-left:10px;
+	padding-right:10px;
+	margin:0 auto;
+}
+#footer p,footer p {
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:2.1;
+}
+
+#footer .footer a,footer .footer a{
+	color:#333;
+	
+}
